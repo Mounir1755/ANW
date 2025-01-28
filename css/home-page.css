@@ -41,6 +41,16 @@
         margin-top: 20px;
     }
 
+    .header-img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .content-img{
+        display: flex;
+        justify-content: center; 
+    }
+
     
 }
 /*fonts*/
@@ -96,11 +106,6 @@
     width: 500px;
     border-radius: 25px;
     margin-left: 0px;
-}
-
-.header-img {
-    display: flex;
-    justify-content: center;
 }
 
 .skate-park-img{
