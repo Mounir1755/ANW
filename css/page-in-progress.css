@@ -1,0 +1,31 @@
+.in-progress{
+    text-align: center;
+}
+.builder-svg{
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.rubik-head {
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  color: #2A283B;
+}
+
+.rubik-paragraaf {
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #2A283B;
+}
+
+.rubik-button {
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
