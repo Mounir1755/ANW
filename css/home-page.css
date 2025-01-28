@@ -98,12 +98,17 @@
     margin-left: 0px;
 }
 
-.header-text {
-margin-left: px;
-
-}
-
 .header-img {
     display: flex;
     justify-content: center;
+}
+
+.skate-park-img{
+    width: 450px;
+    border-radius: 25px;
+    margin-left: 0px;
+}
+
+.content{
+    margin-top: 200px;
 }
