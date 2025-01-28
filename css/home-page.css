@@ -102,6 +102,19 @@
     color: white;
 }
 
+.button-content {
+    background-color: #3DD2CC;
+    color: white;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.button-content:hover {
+    background-color: #3DD2CC;
+    color: white;
+}
+
 .img-header {
     width: 500px;
     border-radius: 25px;
