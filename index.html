@@ -51,7 +51,8 @@
             viewBox="0 0 16 16"
           >
             <path
-              d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
+              d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+            />
           </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -102,7 +103,12 @@
     <!--Begin Content-->
     <div class="container">
       <div class="row content">
-        <div class="col-lg-6 col-sm-12 content-img"><img src="./media/home/skate-park-content.jpg" class="skate-park-img"></div>
+        <div class="col-lg-6 col-sm-12 content-img">
+          <img
+            src="./media/home/skate-park-content.jpg"
+            class="skate-park-img"
+          />
+        </div>
         <div class="col-lg-6 col-sm-12">
           <h1 class="rubik-head">Wat We Doen</h1>
           <p class="rubik-paragraaf">
@@ -114,7 +120,7 @@
             staan.
           </p>
           <button type="button" class="btn button-content rubik-button">
-            Ontdek meer  
+            Ontdek meer
           </button>
         </div>
       </div>
@@ -124,15 +130,144 @@
       <div class="row">
         <div class="col-lg-12 col-sm-12">
           <h1 class="rubik-head">Bouw aan Jouw Weg</h1>
-          <p class="rubik-paragraaf content-p-last">Bij ons krijg je de ruimte om jouw
-             eigen weg te ontdekken en te bewandelen.
-             We bieden de begeleiding en ondersteuning die je nodig
-             hebt om je talenten te ontwikkelen en obstakels te overwinnen.
-             Samen werken we aan een leven waarin jij het verschil kunt
-             maken, zowel voor jezelf als voor de mensen om je heen.
-            </p>
-          <button type="button" class="btn rubik-button button-content-last">Begin vandaag</button>
+          <p class="rubik-paragraaf content-p-last">
+            Bij ons krijg je de ruimte om jouw eigen weg te ontdekken en te
+            bewandelen. We bieden de begeleiding en ondersteuning die je nodig
+            hebt om je talenten te ontwikkelen en obstakels te overwinnen. Samen
+            werken we aan een leven waarin jij het verschil kunt maken, zowel
+            voor jezelf als voor de mensen om je heen.
+          </p>
+          <button type="button" class="btn rubik-button button-content-last">
+            Begin vandaag
+          </button>
         </div>
+      </div>
+    </div>
+    <!--End content-->
+
+    <!--Begin Accordion-->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header rubik-head">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
+                >
+                  01. Jongeren Empoweren
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse show"
+              >
+                <div class="accordion-body rubik-paragraaf">
+                  We helpen jongeren hun kracht en potentieel te ontdekken,
+                  zodat ze zelfverzekerd hun toekomst tegemoet kunnen gaan.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h1 class="accordion-header rubik-head">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo"
+                >
+                  02. Persoonlijke Groei
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseTwo"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  We bieden ondersteuning om jongeren te helpen obstakels te
+                  overwinnen en persoonlijke doelen te bereiken.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree"
+                >
+                  03. Onderwijs Verbeteren
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseThree"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  We stimuleren jongeren om hun schoolprestaties te verbeteren
+                  en motivatie te vinden voor hun leerproces.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree"
+                >
+                  04. Zelfvertrouwen Opbouwen
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseThree"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  We werken samen met jongeren om hun zelfvertrouwen te
+                  vergroten en hun eigen kracht te erkennen.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree"
+                >
+                  05. Gemeenschap Versterken
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseThree"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  We moedigen jongeren aan om een positieve bijdrage te leveren
+                  aan hun gemeenschap en elkaar te ondersteunen.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12"><img src="./media/home/accordion-img.jpg" class="accordion-img"></div>
       </div>
     </div>
 

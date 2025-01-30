@@ -108,6 +108,7 @@
     color: white;
 }
 
+/*content*/
 .button-content {
     background-color: #3DD2CC;
     color: white;
@@ -137,6 +138,8 @@
     margin-top: 200px;
 }
 
+
+/*laatste stuk content*/
 .content-last{
     margin-top: 350px;
     margin-bottom: 350px;
@@ -157,4 +160,11 @@
 
 .content-p-last{
     padding: 0em ;
+}
+
+/*accordion*/
+.accordion-img{
+    border-radius: 25px;
+    height: auto;
+    width: 300px;
 }
