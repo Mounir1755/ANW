@@ -50,7 +50,11 @@
         display: flex;
         justify-content: center; 
     }
-
+    .skate-park-img{
+        height: 300px;
+        border-radius: 25px;
+        margin-left: 0px;
+    }
     
 }
 /*fonts*/
