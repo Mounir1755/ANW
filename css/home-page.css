@@ -173,10 +173,23 @@
     margin-bottom: 50px;
 }
 
+.button-accordion {
+    background-color: #3DD2CC;
+    color: white;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 5px;
+}
+
+.button-accordion:hover {
+    background-color: #3DD2CC;
+    color: white;
+}
+
 .rubik-head-footer {
     font-family: "Rubik", serif;
     font-optical-sizing: auto;
-    
     font-weight: 800;
     font-style: normal;
     color: #FFFF;
@@ -190,6 +203,7 @@
     color: white;
     padding: 20px 0;
     border-radius: 20px;
+    margin-top: 80px;
 }
 
 .footer-sections {
