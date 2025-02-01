@@ -35,7 +35,6 @@
         justify-content: center; 
     }
     .skate-park-img{
-        height: 100%;
         width: 100% !important;
         border-radius: 25px;
         margin-left: 0px;
@@ -44,8 +43,13 @@
     .content-p-last{
         padding: 0em 0em;
     }
+    .tekst-container {
+        max-width: 90%; /* Laat het breed blijven op mobiel */
+    }
     
 }
+
+
 
 
 /*fonts*/
@@ -132,7 +136,9 @@
     margin-bottom: 350px;
 }
 
+
 .button-content-last {
+    margin-top: 15px;
     background-color: #3DD2CC;
     color: white;
     border-radius: 25px;
@@ -145,15 +151,22 @@
     color: white;
 }
 
-.content-p-last{
-    padding: 0em ;
+.tekst-container {
+    max-width: 700px;
+    margin: 0 auto;
 }
+.tekst-container-last {
+    max-width: 800px; 
+    margin: 0 auto;
+
+}
+
 
 /*accordion*/
 .accordion-img{
     border-radius: 25px;
     height: auto;
-    width: 300px;
+    width: 500px;
 }
 
 .doelen{
@@ -178,6 +191,13 @@
     font-family: "Rubik", serif;
     font-optical-sizing: auto;
     font-weight: 800;
+    font-style: normal;
+    color: #FFFF;
+}
+.rubik-paragraaf-footer {
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
     color: #FFFF;
 }
