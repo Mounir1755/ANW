@@ -2,28 +2,12 @@
 
 @media only screen and (max-width: 767px) {
     .rubik-head {
-        font-family: "Rubik", serif;
-        font-optical-sizing: auto;
-        font-weight: 800;
-        font-style: normal;
-        color: #2A283B;
-    }
-      
-    .rubik-paragraaf {
-        font-family: "Rubik", serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        color: #2A283B;
-    }
-      
-    .rubik-button {
-        font-family: "Rubik", serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
+        font-size: 2.5em !important;  /* Kleiner dan de standaard 3.6em */
     }
 
+    .rubik-paragraaf {
+        font-size: 0.9em !important; /* Pas aan naar wens */
+    }
     .button-header{
         margin-top: 20px;
         width: 150px;
@@ -36,7 +20,7 @@
         margin: 0;
     }
     .img-header {
-        height: 250px;
+        height: 100%;
         margin: 0;
         margin-top: 20px;
     }
@@ -51,7 +35,7 @@
         justify-content: center; 
     }
     .skate-park-img{
-        height: 300px;
+        height: 100%;
         border-radius: 25px;
         margin-left: 0px;
     }
@@ -61,6 +45,8 @@
     }
     
 }
+
+
 /*fonts*/
 .rubik-head {
     font-family: "Rubik", serif;
@@ -123,13 +109,13 @@
 }
 
 .img-header {
-    width: 500px;
+    width: 100%;
     border-radius: 25px;
     margin-left: 0px;
 }
 
 .skate-park-img{
-    width: 450px;
+    width: 90%;
     border-radius: 25px;
     margin-left: 0px;
 }
