@@ -2,11 +2,11 @@
 
 @media only screen and (max-width: 767px) {
     .rubik-head {
-        font-size: 2.5em !important;  /* Kleiner dan de standaard 3.6em */
+        font-size: 2.5em !important;
     }
 
     .rubik-paragraaf {
-        font-size: 0.9em !important; /* Pas aan naar wens */
+        font-size: 0.9em !important;
     }
     .button-header{
         margin-top: 20px;
@@ -36,6 +36,7 @@
     }
     .skate-park-img{
         height: 100%;
+        width: 100% !important;
         border-radius: 25px;
         margin-left: 0px;
     }
@@ -194,7 +195,7 @@
 
 .footer-sections {
     display: flex;
-    justify-content: space-around; /* Verdeel de secties gelijkmatig */
+    justify-content: space-around;
     width: 80%;
     text-align: center;
 }
