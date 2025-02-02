@@ -38,8 +38,19 @@
         width: 100% !important;
         border-radius: 25px;
         margin-left: 0px;
+        margin-top: 10px;
     }
-
+    .content-last{
+        margin-top: 150px !important;
+        margin-bottom: 150px !important;
+    }
+    .accordion-mobile-only{
+        margin-bottom: 50px !important;
+     }
+    .desktop-only{
+        margin-top: 100px;
+        display: none;
+    }
     .content-p-last{
         padding: 0em 0em;
     }
@@ -48,10 +59,14 @@
     }
     
 }
-
-
-
-
+@media only screen and (min-width: 767px) {
+.mobile-only{
+    display: none;
+ }
+ .accordion-mobile-only{
+    display: none;
+ }
+}
 /*fonts*/
 .rubik-head {
     font-family: "Rubik", serif;
@@ -125,8 +140,9 @@
     margin-left: 0px;
 }
 
+
 .content{
-    margin-top: 200px;
+    margin-top: 60px;
 }
 
 
@@ -166,7 +182,7 @@
 .accordion-img{
     border-radius: 25px;
     height: auto;
-    width: 500px;
+    width: 100%;
 }
 
 .doelen{
@@ -179,7 +195,7 @@
     border-radius: 25px;
     padding-left: 30px;
     padding-right: 30px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .button-accordion:hover {
