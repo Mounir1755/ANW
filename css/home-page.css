@@ -1,6 +1,9 @@
 
 
 @media only screen and (max-width: 767px) {
+    .logo{
+        width: 170px !important;
+    }
     .rubik-head {
         font-size: 2.5em !important;
     }
@@ -21,7 +24,6 @@
     }
     .img-header {
         height: 100%;
-        margin: 0;
         margin-top: 20px;
     }
 
@@ -203,6 +205,8 @@
     color: white;
 }
 
+
+/*footer*/
 .rubik-head-footer {
     font-family: "Rubik", serif;
     font-optical-sizing: auto;
