@@ -271,7 +271,7 @@
 
 .socials-container {
     display: flex;
-    gap: 15px; /* Voeg ruimte toe tussen de socials */
+    gap: 15px;
 }
 
 .socials-container a {
