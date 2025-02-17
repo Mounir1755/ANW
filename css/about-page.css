@@ -135,11 +135,16 @@
     border-radius: 25px;
     margin-left: 0px;
 }
+
+.title-KW-desktop{
+    margin-top: 100px;
+}
 .cards-container {
     display: flex;
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .card {
@@ -156,6 +161,55 @@
 
 .light {
     background-color: #51D7D2;
+}
+
+.skate-park-img{
+    width: 90%;
+    border-radius: 25px;
+    margin-left: 0px;
+}
+
+.content{
+    margin-top: 80px;
+}
+
+.button-content {
+    background-color: #3DD2CC;
+    color: white;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.button-content:hover {
+    background-color: #3DD2CC;
+    color: white;
+}
+
+
+.accordion-img{
+    border-radius: 25px;
+    height: auto;
+    width: 100%;
+}
+
+.doelen{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.button-accordion {
+    background-color: #3DD2CC;
+    color: white;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+.button-accordion:hover {
+    background-color: #3DD2CC;
+    color: white;
 }
 
 
