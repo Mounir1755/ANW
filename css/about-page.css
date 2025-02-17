@@ -107,7 +107,7 @@
     width: 250px;
 }
 
-.banner-img {
+.banner-img{
     width: 100%;
     height: 100%;
     border-radius: 25px;
@@ -164,7 +164,7 @@
 }
 
 .skate-park-img{
-    width: 90%;
+    width: 100%;
     border-radius: 25px;
     margin-left: 0px;
 }
